@@ -14,5 +14,3 @@ Key concepts
 * strings are combined via `+`
 
 Note: While this may seem super simple (and may be depending on your experience), it's as much about testing that you have PyCharm, Python, and your environment working as it is about the code we write.
-
-
