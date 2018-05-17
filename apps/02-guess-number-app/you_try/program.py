@@ -7,6 +7,7 @@ print()
 
 the_number = random.randint(0, 100)
 guess = -99
+name = input("What is your name? ")
 
 while guess != the_number:
 
@@ -14,12 +15,12 @@ while guess != the_number:
     guess = int(guess_text)
 
     if guess < the_number:
-        print('Sorry but is LOWER than the number.')
+        print('Sorry, {}, but {} is LOWER than the number.'.format(name, guess))
 
     elif guess > the_number:
-        print('Sorry but is HIGHER than the number.')
+        print('Sorry, {}, but {} is HIGHER than the number.'.format(name, guess))
 
     else:
-        print('Congratulations, you guessed correctly!')
+        print('Congratulations, {}, you guessed correctly!'.format(name))
 
-
+print('Stop')
